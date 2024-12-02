@@ -17,8 +17,10 @@
 		usuario.setNome(nome);
 		usuario.setEmail(email);
 		usuario.setSenha(senha);
+		dao.inserir(usuario);
 	}else{
 		response.sendRedirect("novaconta.jsp");
 	}
 	
 %>
+//atualizado
