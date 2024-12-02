@@ -1,3 +1,5 @@
+package controller;
+
 import java.sql.SQLException;
 import model.Usuario;
 import model.Conexao;
@@ -28,3 +30,5 @@ public class UsuarioDao {
 	}
 
 }
+
+//atualizado-02.12.24
