@@ -9,7 +9,7 @@
 <link rel="stylesheet" href ="./css/estilo.css">
 </head>
 <body>
-	<form action="executa-update.jsp" method="post">
+	<form action="executa-updateconta.jsp" method="post">
 		<h2>Atualização</h2>
 		<label>Id</label>
 		<input type="number" name="id" class="form-control" value="<%=request.getParameter("id")%>">
